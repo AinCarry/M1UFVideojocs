@@ -18,7 +18,12 @@ ModelImporter:
     4300000: Cube
     6400000: Cube
     10800000: Light
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 0d1d05d3970e22d4aa387bd64ba61aea, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -55,8 +60,8 @@ ModelImporter:
     useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
